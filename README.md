@@ -10,8 +10,8 @@ To compile the project, you must have: Java 17 JDK, Git and Maven
 #### Compiling from source
 Run the following command from your command line:
 ```
-git clone https://github.com/zMario34/PrivateMessages.git
-cd PrivateMessages
+git clone https://github.com/ssquadteam/PrivateMessages-CTD.git
+cd PrivateMessages-CTD
 mvn clean install
 ```
 
