@@ -1,4 +1,0 @@
-name: PrivateMessages
-version: '${project.version}'
-main: tech.zmario.privatemessages.bungee.BungeeCordBootstrap
-author: zMario

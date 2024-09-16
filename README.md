@@ -1,11 +1,11 @@
 # PrivateMessages
-A new bungeecord & velocity plugin for writing private messages!
+A new bungeecord & velocity plugin for writing private messages! Fixed for [Velocity-CTD](https://github.com/GemstoneGG/Velocity-CTD)
 
 ## Building
 We use Maven to handle dependencies & building.
 
 ### Requirements
-To compile the project, you must have: Java 8 JDK, Git and Maven
+To compile the project, you must have: Java 17 JDK, Git and Maven
 
 #### Compiling from source
 Run the following command from your command line:

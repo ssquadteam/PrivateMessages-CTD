@@ -6,7 +6,7 @@
 
     <groupId>tech.zmario</groupId>
     <artifactId>PrivateMessages</artifactId>
-    <version>2.1.1</version>
+    <version>2.1</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -39,7 +39,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-shade-plugin</artifactId>
-                    <version>3.3.0</version>
+                    <version>3.2.4</version>
                     <executions>
                         <execution>
                             <phase>package</phase>
@@ -57,9 +57,9 @@
     </build>
 
     <modules>
-        <module>privatemessages-common</module>
-        <module>privatemessages-bungeecord</module>
-        <module>privatemessages-velocity</module>
+        <module>PrivateMessages-common</module>
+        <module>PrivateMessages-bungeecord</module>
+        <module>PrivateMessages-velocity</module>
     </modules>
 
     <repositories>
@@ -81,7 +81,13 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.26</version>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.luckperms</groupId>
+            <artifactId>api</artifactId>
+            <version>5.4</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -93,8 +99,20 @@
         <dependency>
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
-            <version>3.41.2.2</version>
+            <version>3.36.0.3</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.gitlab.ruany</groupId>
+            <artifactId>LiteBansAPI</artifactId>
+            <version>0.3.5</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.kyori</groupId>
+            <artifactId>adventure-text-minimessage</artifactId>
+            <version>4.11.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

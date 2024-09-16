@@ -1,0 +1,5 @@
+name: PrivateMessages
+version: '${project.version}'
+main: tech.zmario.privatemessages.bungee.PrivateMessagesBungee
+softdepends: [LuckPerms]
+author: zMario
